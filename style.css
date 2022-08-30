@@ -1,0 +1,45 @@
+body {
+    margin: 0 auto;
+    background-color: #8AC926;
+}
+#bigHead {
+    color: #6a4c93;
+    font-size: 6vw;
+    padding-left: 10px;
+}
+
+#smallHead {
+    color: #ff595e;
+    font-size: 3vw;
+    padding-left: 10px;
+}
+
+#dDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.deets {
+    font-size: 2vw;
+    color: #1982c4;
+    padding: 5px 20px;
+}
+
+#vehicleListNoMark > summary::-webkit-details-marker {
+    visibility: hidden;
+}
+
+#sum {
+    background-color: #ffca3a;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#codeEx {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 20px;
+    width: fit-content;
+    font-size: 1.5vw;
+}
